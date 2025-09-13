@@ -1,18 +1,11 @@
 import { Box, Container, Flex, Heading, HStack, Icon } from "@chakra-ui/react";
-import {
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-} from "@chakra-ui/react";
+import { Button, Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import { FaUserCircle } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 
 const TopNav = ({ title, onOpen }) => {
   return (
-    <Box boxShadow="xl" px="4">
+    <Box bg="white" px="4">
       <HStack maxW="70rem" mx="auto" h="16" justify="space-between">
         <Icon
           as={IoMenu}
