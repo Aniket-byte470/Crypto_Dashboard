@@ -32,7 +32,7 @@ const PriceSection = () => {
         {" "}
         <Stack>
           <HStack color="black.80">
-            <Text fontSize="sm">Wallet Balance</Text>
+            <Text fontSize="sm">Current Prize</Text>
           </HStack>
           <HStack spacing={4}>
             <HStack>
@@ -81,7 +81,6 @@ const PriceSection = () => {
               {timestamps.map((timestamp) => (
                 <Text key={timestamp} fontSize="sm" color="black.80">
                   {timestamp}
-                  {console.log(timestamp)}
                 </Text>
               ))}
             </HStack>
@@ -93,7 +92,6 @@ const PriceSection = () => {
               {timestamps.map((timestamp) => (
                 <Text key={timestamp} fontSize="sm" color="black.80">
                   {timestamp}
-                  {console.log(timestamp)}
                 </Text>
               ))}
             </HStack>
@@ -105,7 +103,6 @@ const PriceSection = () => {
               {timestamps.map((timestamp) => (
                 <Text key={timestamp} fontSize="sm" color="black.80">
                   {timestamp}
-                  {console.log(timestamp)}
                 </Text>
               ))}
             </HStack>
